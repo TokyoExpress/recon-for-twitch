@@ -2,6 +2,7 @@
 
 Presented by <strong>TokyoExpress</strong>
 
+
 ***Abstract***
 
 This project began with a simple ambition:
@@ -15,7 +16,6 @@ As I began development, I soon discovered that the answer was "yes, absolutely".
    <li>At what accuracy should optimization stop? 90%? 95%? What is the maximum capability of a model like this?</li>
    <li>What are the practical applications and extensions of Project S?</li>
 </ul>
-<br /><br />
 
 Language: **Python**
 
