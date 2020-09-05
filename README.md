@@ -19,7 +19,7 @@ As I began development, I soon discovered that the answer was "yes, absolutely".
 
 Language: **Python**
 
-Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br />
+Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><br />
 
 ***Premise and Motivation***
 
