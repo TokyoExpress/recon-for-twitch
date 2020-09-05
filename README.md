@@ -1,6 +1,6 @@
 # Project S Developer Log
 
-Presented by <strong>TokyoExpress</strong>
+Presented by <strong>TokyoExpress</strong><br /><br />
 
 
 ***Abstract***
