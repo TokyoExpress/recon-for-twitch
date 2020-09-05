@@ -18,6 +18,7 @@ As I began development, I soon discovered that the answer was "yes, absolutely".
 <br /><br />
 
 Language: **Python**
+
 Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br />
 
 ***Premise and Motivation***
