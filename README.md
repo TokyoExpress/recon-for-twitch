@@ -7,7 +7,7 @@ Presented by <strong>TokyoExpress</strong><br /><br />
 
 Project S is a set of neural net models built around the data format of video game screenshots.
 
-This project began with a simple ambition:
+The project began with a simple ambition:
 <ul>
    <li>Can a neural network identify the game you're playing from a screenshot?</li>
 </ul>
