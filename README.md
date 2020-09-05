@@ -9,7 +9,9 @@ This project began with a simple ambition:
 <ul>
    <li>Can a neural network identify the game you're playing from a screenshot?</li>
 </ul>
+
 As I began development, I soon discovered that the answer was "yes, absolutely". But I ran into a few more overarching questions:
+
 <ul>
    <li>What types of games should Project S be able to classify?</li>
    <li>Should Project S be able to identify correctly even when the image provided is not gameplay (e.g. loading screens or menus)?</li>
