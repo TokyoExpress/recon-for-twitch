@@ -1,11 +1,11 @@
-# Project S Developer Log
+# Recon (for Twitch)
 
 Presented by <strong>TokyoExpress</strong><br /><br />
 
 
 ***Abstract***
 
-Project S is a set of neural net models built around the data format of video game screenshots.
+Recon is a set of neural net models built around the data format of video game screenshots.
 
 The project began with a simple ambition:
 <ul>
@@ -15,10 +15,10 @@ The project began with a simple ambition:
 As I began development, I soon discovered that the answer was "yes, absolutely". But I ran into a few more overarching questions:
 
 <ul>
-   <li>What types of games should Project S be able to classify?</li>
-   <li>Should Project S be able to identify correctly even when the image provided is not gameplay (e.g. loading screens or menus)?</li>
+   <li>What types of games should Recon be able to classify?</li>
+   <li>Should Recon be able to identify correctly even when the image provided is not gameplay (e.g. loading screens or menus)?</li>
    <li>At what accuracy should optimization stop? 90%? 95%? What is the maximum capability of a model like this?</li>
-   <li>What are the practical applications and extensions of Project S?</li>
+   <li>What are the practical applications and extensions of Recon?</li>
 </ul>
 
 Language: **Python**
