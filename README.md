@@ -37,6 +37,8 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 * [Logistical Roadblocks 1](#logistical-roadblocks-1)
 * [Redefining Scope and Goals](#redefining-scope-and-goals)
 
+
+
 ## Prepping Data
 
 The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkantharia/kickstarter-campaigns/data. It's a 32 MB dataset with 170731 unique projects, along with the following variables:
