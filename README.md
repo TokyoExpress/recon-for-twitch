@@ -31,14 +31,11 @@ Language: **Python**
 
 Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><br />
 
-***Table of Contents***
+***Log***
 
-* [Prepping Data](#prepping-data)
-* [Exploratory Insight](#exploratory-insight)
-* [Statistical Models and Analysis](#statistical-models-and-analysis)
-* [Machine Learning](#machine-learning)
-* [Relevant Conclusions and Applications](#relevant-conclusions-and-applications)
-* [Next Steps](#next-steps)<br /><br />
+* [Preliminary Test of Viability](#preliminary-test-of-viability)
+* [Logistical Roadblocks 1](#logistical-roadblocks-1)
+* [Redefining Scope and Goals](#redefining-scope-and-goals)
 
 ## Prepping Data
 
