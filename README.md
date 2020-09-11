@@ -5,7 +5,7 @@ Presented by <strong>TokyoExpress</strong><br /><br />
 
 ***Abstract***
 
-Recon for Twitch is a Google Chrome extension that allows you to sort Twitch channels by what state of the game they are in (e.g. Champion Select or In-Game for League of Legends)<br /><br />
+Recon for Twitch is a Google Chrome extension that allows you to sort Twitch channels by what state of the game they are in (e.g. Champion Select or In-Game for League of Legends).<br /><br />
 
 
 
