@@ -1,4 +1,4 @@
-<img width=500px src="https://i.imgur.com/50XEGn7.png"></img>
+<img width=500px style={display: block; margin: 0 auto;} src="https://i.imgur.com/50XEGn7.png"></img>
 
 Presented by <strong>TokyoExpress</strong><br /><br />
 
