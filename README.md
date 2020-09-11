@@ -37,7 +37,7 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 * [Logistical Roadblocks 1](#logistical-roadblocks-1)
 * [Redefining Scope and Goals](#redefining-scope-and-goals)
 
-
+#
 
 ## Prepping Data
 
