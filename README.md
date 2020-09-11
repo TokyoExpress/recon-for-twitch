@@ -34,8 +34,7 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 ***Log***
 
 * [Preliminary Test of Viability](#preliminary-test-of-viability)
-* [Logistical Roadblocks 1](#logistical-roadblocks-1)
-* [Redefining Scope and Goals](#redefining-scope-and-goals)<br /><br /><br /><br />
+* [Reality Check](#reality-check)<br /><br /><br /><br />
 
 ## Prepping Data
 
