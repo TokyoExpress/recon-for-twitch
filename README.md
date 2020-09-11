@@ -3,8 +3,12 @@
 
 Presented by <strong>TokyoExpress</strong><br /><br />
 
-
 ***Abstract***
+
+Recon for Twitch is a Google Chrome extension that enhances your Twitch experience.
+
+
+***Longer Abstract***
 
 Recon is a set of neural net models built around the data format of video game screenshots.
 
