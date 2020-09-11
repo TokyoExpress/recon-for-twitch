@@ -5,11 +5,11 @@ Presented by <strong>TokyoExpress</strong><br /><br />
 
 ***Abstract***
 
-Recon for Twitch is a Google Chrome extension that allows you to sort channels by what state of the game they are in (e.g. Champion Select or In-Game for League of Legends)<br /><br />
+Recon for Twitch is a Google Chrome extension that allows you to sort Twitch channels by what state of the game they are in (e.g. Champion Select or In-Game for League of Legends)<br /><br />.
 
 
 
-***Longer Abstract***
+***Premise***
 
 Recon is a set of neural net models built around the data format of video game screenshots.
 
@@ -30,10 +30,6 @@ As I began development, I soon discovered that the answer was "yes, absolutely".
 Language: **Python**
 
 Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><br />
-
-***Premise and Motivation***
-
-Kickstarter has been one of the premiere crowdfunding platforms since its launch in 2009. It is now home to over 445,000 successfully backed projects. While crowdfunding remains a great resource for any aspiring product designers and entrepreneurs, taking care of a campaign still requires a decently significant amount of time and money, with no guarantee or indicator of success. This project attempts to provide potential campaign managers with information and insight that can be used to maximize the probability of success for a certain project, as well as provide areas of interest that can later be researched further by the project manager.<br /><br />
 
 ***Table of Contents***
 
