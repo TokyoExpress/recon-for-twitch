@@ -1,4 +1,4 @@
-![Recon Logo](https://i.imgur.com/50XEGn7.png | width=500px)
+<img width=500px src="https://i.imgur.com/50XEGn7.png"></img>
 
 # Recon (for Twitch)
 
