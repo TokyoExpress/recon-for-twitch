@@ -62,7 +62,7 @@ Using another file to test completely new images on the model, I found that the 
 
 <img width=500px src="https://i.imgur.com/XR1qeYV.png"></img>
 
-<img width=500px src="https://i.imgur.com/2PJgXGi.png"></img>
+<img width=500px src="https://i.imgur.com/Ufbmce4.png"></img>
 
 <img width=500px src="https://i.imgur.com/tYttHrJ.png"></img>
 
