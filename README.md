@@ -70,3 +70,9 @@ Using another file to test completely new images on the model, I found that the 
 On most of the test images, at least.
 
 <img width=500px src="https://i.imgur.com/J2qZeQ5.png"></img>
+
+But 90% was pretty good! Far better than I expected the model to perform, which was a good enough greenlight for me to move on.
+
+## A Little Further In
+
+So with the preliminary test passed, I proceeded to move on to developing deeper and more practical models.
