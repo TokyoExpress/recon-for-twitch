@@ -36,10 +36,15 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 * [Preliminary Test of Viability](#preliminary-test-of-viability)
 * [Reality Check](#reality-check)<br /><br /><br /><br />
 
-## Prepping Data
+## Preliminary Test of Viability
 
-The raw data for this project comes from Kaggle: https://www.kaggle.com/yashkantharia/kickstarter-campaigns/data. It's a 32 MB dataset with 170731 unique projects, along with the following variables:
+In order for this to have any future, we just have to make sure that a neural net is actually capable of working with screenshots as data. I have confidence in machine learning, but it's always better to be safe and build one of these simple models first.
 
-<ul>
-  <li>ID</li>
-  <li>Name</li>
+By scraping thumbnails from Twitch livestreams, I assembled a small dataset of around 100-200 images of the following games:
+
+<ol>
+   <li>League of Legends</li>
+   <li>Valorant</li>
+   <li>Counter-Strike: Global Offensive</li>
+   <li>Overwatch</li>
+</ol>
