@@ -50,8 +50,6 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
    <li>Overwatch</li>
 </ol>
 
-<img width=500px src="https://i.imgur.com/WUyjPFc.png"></img>
-
 <img width=500px src="https://i.imgur.com/PZJdKGT.png"></img>
 
 Then I just copied the layers and nodes from the architecture of a pretty basic Keras dogs-vs-cats classifier. Because of the low amount of training data, I ran it for 175 epochs: enough times so that the accuracy would substantially improve but not too many that the model would overfit. The results were not bad: 90% accuracy.
