@@ -34,6 +34,7 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 ***Log***
 
 * [Preliminary Test of Viability](#preliminary-test-of-viability)
+* [A Little Further In](#a-little-further-in)
 * [Reality Check](#reality-check)<br /><br /><br /><br />
 
 ## Preliminary Test of Viability
