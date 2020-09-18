@@ -31,7 +31,7 @@ Language: **Python**
 
 Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><br />
 
-***Log***
+***Developer Log***
 
 * [Preliminary Test of Viability](#preliminary-test-of-viability)
 * [A Little Further In](#a-little-further-in)
