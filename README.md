@@ -44,7 +44,7 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
 
 <ol>
    <li>League of Legends</li>
-   <li>Valorant</li>
+   <li>VALORANT</li>
    <li>Counter-Strike: Global Offensive</li>
    <li>Overwatch</li>
 </ol>
