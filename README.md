@@ -50,4 +50,5 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
 </ol>
 
 <img width=750px src="https://i.imgur.com/WUyjPFc.png"></img>
+
 <img width=750px src="https://i.imgur.com/PZJdKGT.png"></img>
