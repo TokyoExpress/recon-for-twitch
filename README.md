@@ -49,5 +49,5 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
    <li>Overwatch</li>
 </ol>
 
-<img src="https://i.imgur.com/WUyjPFc.png"></img>
-<img src="https://i.imgur.com/PZJdKGT.png"></img>
+<img width=750px src="https://i.imgur.com/WUyjPFc.png"></img>
+<img width=750px src="https://i.imgur.com/PZJdKGT.png"></img>
