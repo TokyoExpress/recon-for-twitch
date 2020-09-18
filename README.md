@@ -56,7 +56,7 @@ Then I just copied the layers and nodes from the architecture of a pretty basic 
 
 <img width=500px src="https://i.imgur.com/ezI34zF.png"></img>
 
-Using another file to test completely new images on the model, I found that the model was actually pretty legitimate, being able to differentiate most pictures with high probability.
+Using another file to test completely new images on the model, I found that the model was actually pretty legitimate, being able to differentiate and classify most pictures with high probability/accuracy.
 
 
 <img width=500px src="https://i.imgur.com/XR1qeYV.png"></img>
