@@ -67,3 +67,7 @@ Using another file to test completely new images on the model, I found that the 
 <img width=500px src="https://i.imgur.com/tYttHrJ.png"></img>
 
 <img width=500px src="https://i.imgur.com/0nPJUUu.png"></img>
+
+On most of the test images, at least.
+
+<img width=500px src="https://i.imgur.com/J2qZeQ5.png"></img>
