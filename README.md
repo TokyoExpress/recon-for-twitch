@@ -52,3 +52,18 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
 <img width=750px src="https://i.imgur.com/WUyjPFc.png"></img>
 
 <img width=750px src="https://i.imgur.com/PZJdKGT.png"></img>
+
+Then I just copied the layers and nodes from a basic Keras dogs-vs-cats classifier. Because of the low amount of training data, I ran it for 175 epochs: enough times so that the accuracy would substantially improve but not too many that the model would overfit. The results were not bad: 90% accuracy.
+
+<img width=500px src="https://i.imgur.com/ezI34zF.png"></img>
+
+Using another file to test completely new images on the model, I found that the model was actually pretty legitimate, being able to differentiate most pictures with high probability.
+
+
+<img width=500px src="https://i.imgur.com/XR1qeYV.png"></img>
+
+<img width=500px src="https://i.imgur.com/2PJgXGi.png"></img>
+
+<img width=500px src="https://i.imgur.com/tYttHrJ.png"></img>
+
+<img width=500px src="https://i.imgur.com/0nPJUUu.png"></img>
