@@ -48,3 +48,6 @@ By scraping thumbnails from Twitch livestreams, I assembled a small dataset of a
    <li>Counter-Strike: Global Offensive</li>
    <li>Overwatch</li>
 </ol>
+
+<img src="https://i.imgur.com/WUyjPFc.png"></img>
+<img src="https://i.imgur.com/PZJdKGT.png"></img>
