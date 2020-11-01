@@ -81,6 +81,6 @@ So with the preliminary test passed, I proceeded to move on to developing deeper
 
 ## Reality Check
 
-# Endeavor 1: League of Legends
+# Chapter 1: League of Legends
 
-## Not Object Detection, 
+## Not Object Detection, Template Matching
