@@ -142,7 +142,7 @@ The original idea was to have the model sit and watch Twitch live thumbnails, th
    <li>This does not really solve an issue. No one is complaining about the 5 seconds it takes to input the name of the game they're playing, and although there are some people who forget to change it and end up in the wrong category, this specific model and its purposes are not worth the effort it will take to build it.
 </ol>
 
-But this isn't the end of the project! This was just the beginning, a test to make sure that we were able to get work done in this context and space.
+But this isn't the end of the project! This was just the beginning, a test to make sure that we were able to actually get things done in this context and space. The lab is open, and we have work to do.
 
 # Chapter 1: League of Legends
 
