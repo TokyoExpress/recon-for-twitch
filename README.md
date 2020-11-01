@@ -33,11 +33,13 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 
 ***Developer Log***
 
-* [Preliminary Test of Viability](#preliminary-test-of-viability)
-* [A Little Further In](#a-little-further-in)
-* [Reality Check](#reality-check)<br /><br /><br /><br />
+* [Chapter 0: Preliminary Test of Viability](#chapter-0-preliminary-test-of-viability)
+*     [A Little Further In](#a-little-further-in)
+*     [Reality Check](#reality-check)
+* [Chapter 1: League of Legends](#chapter-1-league-of-legends)
+*     [Not Object Detection, Template Matching](#not-object-detection-template-matching)<br /><br /><br /><br />
 
-## Preliminary Test of Viability
+# Chapter 0: Preliminary Test of Viability
 
 In order for this to have any future, we just have to make sure that a neural net is actually capable of working with screenshots as data. I have confidence in machine learning, but it's always better to be safe and build one of these simple models first.
 
@@ -76,3 +78,9 @@ But 90% was pretty good! Far better than I expected the model to perform, which 
 ## A Little Further In
 
 So with the preliminary test passed, I proceeded to move on to developing deeper and more practical models.
+
+## Reality Check
+
+# Endeavor 1: League of Legends
+
+## Not Object Detection, 
