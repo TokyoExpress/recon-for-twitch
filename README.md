@@ -96,19 +96,25 @@ The model did pretty well and reached a slightly worse accuracy of around 85%. S
 
 Like usual, many of the new games were able to be predicted with high accuracy:
 
-<img width=500px src="https://i.imgur.com/yatGHjI.png"></img>
+<img width=300px src="https://i.imgur.com/yatGHjI.png"></img>
 
-<img width=500px src="https://i.imgur.com/AdNX3fh.png"></img>
+<img width=300px src="https://i.imgur.com/AdNX3fh.png"></img>
 
-<img width=500px src="https://i.imgur.com/9w3Ab2Y.png"></img>
+<img width=300px src="https://i.imgur.com/9w3Ab2Y.png"></img>
 
 However, the new games presented several more possibilities for error, some for games that looked similar, and some that just didn't make sense at all:
 
-<img width=500px src="https://i.imgur.com/LcQpeFF.png"></img>
+<img width=300px src="https://i.imgur.com/LcQpeFF.png"></img>
 
-<img width=500px src="https://i.imgur.com/vrdiedw.png"></img>
+<img width=300px src="https://i.imgur.com/vrdiedw.png"></img>
 
-<img width=500px src="https://i.imgur.com/77Pet5A.png"></img>
+<img width=300px src="https://i.imgur.com/77Pet5A.png"></img>
+
+Additionally, this time I did not interfere with the data, and so images of lobbies and loading screens also factored into the model, for better or for worse:
+
+<img width=300px src="https://i.imgur.com/LNZjlOv.png"></img>
+
+<img width=300px src="https://i.imgur.com/BxUzfik.png"></img>
 
 ## Reality Check
 
