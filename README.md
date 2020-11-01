@@ -131,7 +131,7 @@ The original idea was to have the model sit and watch Twitch live thumbnails, th
    
    
    
-   <li>In order for the supervised model to be relatively accurate, it would need at least 100 instances of each game, including singleplayer games like God of War or Super Mario Odyssey of which there is not a constant streamer or viewer base for. It would be incredibly hard to efficiently find footage that would well represent these games.</li><br />
+   <li>In order for the supervised model to be relatively accurate, it would need at least 100 instances of each game, including singleplayer games like God of War or Super Mario Odyssey of which there are no constant streamer or viewer bases for. It would be incredibly hard to efficiently find footage that would well represent these games.</li><br />
    
    
    
