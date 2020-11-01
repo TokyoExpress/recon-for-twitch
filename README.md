@@ -45,12 +45,12 @@ In order for this to have any future, we just have to make sure that a neural ne
 
 By scraping thumbnails from Twitch livestreams, I assembled a small dataset of around 100-200 images of the following games:
 
-<ol>
+<ul>
    <li>League of Legends</li>
    <li>VALORANT</li>
    <li>Counter-Strike: Global Offensive</li>
    <li>Overwatch</li>
-</ol>
+</ul>
 
 <img width=750px src="https://i.imgur.com/PZJdKGT.png"></img>
 
@@ -79,7 +79,7 @@ But 90% was pretty good! Far better than I expected the model to perform, which 
 
 So with the preliminary test passed, I proceeded to move on to developing deeper and more practical models. I attempted to fit a model twice as large, containing 8 of the most viewed games on Twitch: 
 
-<ol>
+<ul>
    <li>Apex Legends</li>
    <li>Fall Guys</li>
    <li>Fortnite</li>
@@ -88,7 +88,7 @@ So with the preliminary test passed, I proceeded to move on to developing deeper
    <li>VALORANT</li>
    <li>Counter-Strike: Global Offensive</li>
    <li>Overwatch</li>
-</ol>
+</ul>
 
 Same deal, I used my web scraper to scrape over 100 thumbnails for each game and sorted them into appropriate directories for my pipeline. I adjusted the neurons to handle the new input format and did some hyperparameter tuning to find a good number of layers and epochs.
 
@@ -116,7 +116,26 @@ Additionally, this time I did not interfere with the data, and so images of lobb
 
 <img width=300px src="https://i.imgur.com/BxUzfik.png"></img>
 
+Needless to say, this was a good time to reevalute the scope and ambition of the project.
+
 ## Reality Check
+
+So we were able to fit a model with pretty high accuracy, and 85% of the time you can give it a video game screenshot and it'll tell you what game you're playing.
+
+What now?
+
+The original idea was to have the model sit and watch Twitch live thumbnails, thus being able to sort streamers into their respective game categories without them having to select the game they were playing. But if we actually take a step back and think about it, there presents a bunch of issues, both logistical and practical:
+
+<ol>
+   <li>Apex Legends</li>
+   <li>Fall Guys</li>
+   <li>Fortnite</li>
+   <li>League of Legends</li>
+   <li>Call of Duty: Modern Warfare</li>
+   <li>VALORANT</li>
+   <li>Counter-Strike: Global Offensive</li>
+   <li>Overwatch</li>
+</ol>
 
 # Chapter 1: League of Legends
 
