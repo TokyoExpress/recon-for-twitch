@@ -34,10 +34,10 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 ***Developer Log***
 
 * [Chapter 0: Preliminary Test of Viability](#chapter-0-preliminary-test-of-viability)
-*     [A Little Further In](#a-little-further-in)
-*     [Reality Check](#reality-check)
+   * [A Little Further In](#a-little-further-in)
+   * [Reality Check](#reality-check)
 * [Chapter 1: League of Legends](#chapter-1-league-of-legends)
-*     [Not Object Detection, Template Matching](#not-object-detection-template-matching)<br /><br /><br /><br />
+   * [Not Object Detection, Template Matching](#not-object-detection-template-matching)<br /><br /><br /><br />
 
 # Chapter 0: Preliminary Test of Viability
 
