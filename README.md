@@ -127,15 +127,15 @@ What now?
 The original idea was to have the model sit and watch Twitch live thumbnails, thus being able to sort streamers into their respective game categories without them having to select the game they were playing. But if we actually take a step back and think about it, there presents a bunch of issues, both logistical and practical:
 
 <ol>
-   <li>The model gets increasingly inaccurate the more games it has to account for. If it gets 15% wrong with only 8 games to choose from, how much more often will the softmax function pick the wrong game when there are 1,000 games to choose from?</li>
+   <li>The model gets increasingly inaccurate the more games it has to account for. If it gets 15% wrong with only 8 games to choose from, how much more often will the softmax function pick the wrong game when there are 1,000 games to choose from?</li><br />
    
    
    
-   <li>In order for the supervised model to be relatively accurate, it would need at least 100 instances of each game, including singleplayer games like God of War or Super Mario Odyssey of which there is not a constant streamer or viewer base for. It would be incredibly hard to efficiently find footage that would well represent these games.</li>
+   <li>In order for the supervised model to be relatively accurate, it would need at least 100 instances of each game, including singleplayer games like God of War or Super Mario Odyssey of which there is not a constant streamer or viewer base for. It would be incredibly hard to efficiently find footage that would well represent these games.</li><br />
    
    
    
-   <li>85% is not a bad accuracy, but the 15% of times where streamers would have to manually go back into their Twitch settings just to change an incorrect prediction would outweigh the benefits of such an extension. Which brings us to our final point:</li>
+   <li>85% is not a bad accuracy, but the 15% of times where streamers would have to manually go back into their Twitch settings just to change an incorrect prediction would outweigh the benefits of such an extension. Which brings us to our final point:</li><br />
    
    
    
