@@ -77,7 +77,38 @@ But 90% was pretty good! Far better than I expected the model to perform, which 
 
 ## A Little Further In
 
-So with the preliminary test passed, I proceeded to move on to developing deeper and more practical models.
+So with the preliminary test passed, I proceeded to move on to developing deeper and more practical models. I attempted to fit a model twice as large, containing 8 of the most viewed games on Twitch: 
+
+<ol>
+   <li>Apex Legends</li>
+   <li>Fall Guys</li>
+   <li>Fortnite</li>
+   <li>League of Legends</li>
+   <li>Call of Duty: Modern Warfare</li>
+   <li>VALORANT</li>
+   <li>Counter-Strike: Global Offensive</li>
+   <li>Overwatch</li>
+</ol>
+
+Same deal, I used my web scraper to scrape over 100 thumbnails for each game and sorted them into appropriate directories for my pipeline. I adjusted the neurons to handle the new input format and did some hyperparameter tuning to find a good number of layers and epochs.
+
+The model did pretty well and reached a slightly worse accuracy of around 85%. Still not bad, all things considered. But looking through my test data revealed some wildly inaccurate predictions.
+
+Like usual, many of the new games were able to be predicted with high accuracy:
+
+<img width=500px src="https://i.imgur.com/yatGHjI.png"></img>
+
+<img width=500px src="https://i.imgur.com/AdNX3fh.png"></img>
+
+<img width=500px src="https://i.imgur.com/9w3Ab2Y.png"></img>
+
+However, the new games presented several more possibilities for error, some for games that looked similar, and some that just didn't make sense at all:
+
+<img width=500px src="https://i.imgur.com/LcQpeFF.png"></img>
+
+<img width=500px src="https://i.imgur.com/vrdiedw.png"></img>
+
+<img width=500px src="https://i.imgur.com/77Pet5A.png"></img>
 
 ## Reality Check
 
