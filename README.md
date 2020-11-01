@@ -128,9 +128,12 @@ The original idea was to have the model sit and watch Twitch live thumbnails, th
 
 <ol>
    <li>The model gets increasingly inaccurate the more games it has to account for. If it gets 15% wrong with only 8 games to choose from, how much more often will the softmax function pick the wrong game when there are 1,000 games to choose from?</li>
+   
    <li>In order for the supervised model to be relatively accurate, it would need at least 100 instances of each game, including singleplayer games like God of War or Super Mario Odyssey of which there is not a constant streamer or viewer base for. It would be incredibly hard to efficiently find footage that would well represent these games.</li>
+   
    <li>85% is not a bad accuracy, but the 15% of times where streamers would have to manually go back into their Twitch settings just to change an incorrect prediction would outweigh the benefits of such an extension. Which brings us to our final point:</li>
-   <li>This does not really solve an issue. No one is complaining about having to input the name of the game they're playing, and although there are some people who forget to change it and end up in the wrong category, this specific model and its purposes are not worth the effort it will take to build it.
+   
+   <li>This does not really solve an issue. No one is complaining about the 5 seconds it takes to input the name of the game they're playing, and although there are some people who forget to change it and end up in the wrong category, this specific model and its purposes are not worth the effort it will take to build it.
 </ol>
 
 But this isn't the end of the project! This was just the beginning, a test to make sure that we were able to get work done in this context and space.
