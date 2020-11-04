@@ -37,7 +37,8 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
    * [A Little Further In](#a-little-further-in)
    * [Reality Check](#reality-check)
 * [Chapter 1: League of Legends](#chapter-1-league-of-legends)
-   * [Not Object Detection, Template Matching](#not-object-detection-template-matching)<br /><br /><br /><br />
+   * [The Name of the Game](#the-name-of-the-game)
+   * [Pyke Detection](#pyke-detection)<br /><br /><br /><br />
 
 # Chapter 0: Preliminary Test of Viability
 
@@ -146,4 +147,6 @@ But this isn't the end of the project! This was just the beginning, a test to ma
 
 # Chapter 1: League of Legends
 
-## Not Object Detection, Template Matching
+## The Name of the Game
+
+## Pyke Detection
