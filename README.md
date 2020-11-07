@@ -38,7 +38,8 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
    * [Reality Check](#reality-check)
 * [Chapter 1: League of Legends](#chapter-1-league-of-legends)
    * [The Name of the Game](#the-name-of-the-game)
-   * [Pyke Detection](#pyke-detection)<br /><br /><br /><br />
+   * [Pyke Detection](#pyke-detection)
+   * [Deus Ex Machina](#deus-ex-machina)<br /><br /><br /><br />
 
 # Chapter 0: Preliminary Test of Viability
 
