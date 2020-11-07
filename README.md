@@ -190,6 +190,8 @@ What does this mean? Well, in a normal object classification problem like the ca
 
 This is called **template matching**, and it's the key technique we'll be using in this chapter.
 
+<img src="https://i.imgur.com/L3S5hbR.png"></img>
+
 We'll start work in the lab in the next section.
 
 ## Pyke Detection
