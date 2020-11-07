@@ -148,6 +148,18 @@ But this isn't the end of the project! This was just the beginning, a test to ma
 
 # Chapter 1: League of Legends
 
+I'm writing this up instead of developing, so that means unfortunately I haven't been progressing as smoothly as I'd hoped. We'll get to that part soon, though, so let's just jump right in for now.
+
+League of Legends has been and is still the most viewed game categories on Twitch. It's also one of my favorite games and IPs. Now we pose the following challenge:
+
+- Can we detect what champion a streamer is playing from the livestream preview alone?
+
+There is currently a tag function for the League of Legends category that allows a streamer to manually add a tag to their stream, but nobody really uses it. After all, if you're streaming for 6-7 hours on end, it may become annoying to have to go back to your stream settings every game and change the champion tag. As you can see on the front page of LoL on Twitch, the tag is virtually obsolete:
+
+<img>https://i.imgur.com/XHdKuzs.png</img>
+
 ## The Name of the Game
 
 ## Pyke Detection
+
+## Deus Ex Machina
