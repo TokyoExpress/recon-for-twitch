@@ -164,6 +164,20 @@ Anyways, that's what we're working with. Technical stuff in the next section.
 
 ## The Name of the Game
 
+In the prologue, we used image classification to separate game screenshots. This, however, is a pretty different task. Take for example, these two stream previews of League:
+
+<img src="https://i.imgur.com/prhQ8E4.jpg"></img>
+
+<img src="https://i.imgur.com/ZHRnQMT.jpg"></img>
+
+If you have a good eye and you've played a good amount of League, you can probably recognize the characters being played as Alistar and Twitch, respectively. However, when we feed thousands and thousands of champion-labeled League images into a classifier, it won't be accurate. There is far too much noise in these screenshots for the neural net to be able to learn what actually gives away what champion is being played.
+
+The answer to that lies in the HUD. In a MOBA like League, the player's screen can be anywhere on the map at any given time. The player character might not even visible. But the one thing that doesn't move as long as the player is in a game is the heads up display in the bottom center of the screen, shown below with annotations:
+
+<img src="https://i.imgur.com/z8v5hFh.png"></img>
+
+
+
 ## Pyke Detection
 
 ## Deus Ex Machina
