@@ -176,7 +176,21 @@ The answer to that lies in the HUD. In a MOBA like League, the player's screen c
 
 <img src="https://i.imgur.com/z8v5hFh.png"></img>
 
+Some of these attributes are useful, some of these are not. Items can vary across the board, and most of the stat icons are shared by almost all the champions. Even the champion portrait actually depends on what skin the player is using. However, all of these assets are fixed images and can be used as a reference in one way or another:
 
+<img src="https://i.imgur.com/eMmAAyS.png"></img>
+
+These images and sprites are all available on Riot's dataset Data Dragon (ddragon). Our goal and attempt at a solution here is to try to find these images in the preview thumbnail image. Once we do that, we can find the champion the player is playing (e.g. if we find the sprite image for Dr. Mundo's W ability, Burning Agony, in the image, we can conclude that that the player is playing Dr. Mundo).
+
+Normally the typical approach for "find an image within an image" would be **object detection**, a computer vision technique that is capable of things like finding a cat within a photograph. This requires training, just like an image classifier, and is a whole other field in itself. Luckily for us, we have a constraint in our problem that is going to be extremely helpful:
+
+- The image we are looking for will never be in a different form.
+
+What does this mean? Well, in a normal object classification problem like the cat one mentioned, the model has to learn from many, many cat images so that it can learn what a cat looks like, regardless of what direction it's facing and the size and type of cat it is. Whereas in our case, if we're checking if a thumbnail contains Pyke's W ability, Ghostwater Dive, we can count on it to look exactly the same every time, because it's a static image icon. Instead of training a model to detect different variations of an object, we just have to find the existence of one image inside of the other image.
+
+This is called **template matching**, and it's the key technique we'll be using in this chapter.
+
+We'll start work in the lab in the next section.
 
 ## Pyke Detection
 
