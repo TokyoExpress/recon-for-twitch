@@ -158,6 +158,10 @@ There is currently a tag function for the League of Legends category that allows
 
 <img src="https://i.imgur.com/XHdKuzs.png"></img>
 
+But what if you didn't have to type in that tag, and Recon would just automatically be able to tell what champion you were playing just from the thumbnail? Anyone with the extension would be able to find you if they wanted to watch a specific champion.
+
+Anyways, that's what we're working with. Technical stuff in the next section.
+
 ## The Name of the Game
 
 ## Pyke Detection
