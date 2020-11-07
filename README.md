@@ -156,7 +156,7 @@ League of Legends has been and is still the most viewed game categories on Twitc
 
 There is currently a tag function for the League of Legends category that allows a streamer to manually add a tag to their stream, but nobody really uses it. After all, if you're streaming for 6-7 hours on end, it may become annoying to have to go back to your stream settings every game and change the champion tag. As you can see on the front page of LoL on Twitch, the tag is virtually obsolete:
 
-<img>https://i.imgur.com/XHdKuzs.png</img>
+<img src="https://i.imgur.com/XHdKuzs.png"></img>
 
 ## The Name of the Game
 
