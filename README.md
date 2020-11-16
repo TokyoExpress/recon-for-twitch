@@ -196,4 +196,8 @@ We'll start work in the lab in the next section.
 
 ## Pyke Detection
 
+Alright, I don't want to get too behind in the logs, so let's get this section over with.
+
+
+
 ## Deus Ex Machina
