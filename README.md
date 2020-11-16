@@ -218,4 +218,6 @@ This is where it got a little tricky. Because the resolutions of the thumbnails 
 
 I've only included five of these, but I ran into about 100 when I was iterating through my dataset (which was only around 150 images). So this clearly didn't work. The resolution was just too small and the noise in the downscaled pixels varied too much for us to be able to find an accurate threshold. It seemed that we would either have to find a different approach or just abandon the method altogether, because if we weren't able to detect Pyke, there was no way we were going to be able to detect anything else.
 
+Of course, we did find a solution to the problem (and it was really simple). And now that we're caught up, I can start developing again! See you in the next section.
+
 ## Deus Ex Machina
