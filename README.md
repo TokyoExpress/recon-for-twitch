@@ -204,6 +204,18 @@ Which leaves the passive icon as the only thing that can be relied on to actuall
 
 I set up a simple Python script to do iterative template matching over a series of sizes for the smaller image. Basically, template matching requires you to specify the size of the image that you'll be looking for, which isn't ideal because we don't actually know how big the streamer's HUD is going to be, but we can work around that by template matching multiple times with different icon sizes. And it worked! The script was able to find the passive icon in the screenshot of Pyke (outlined in red):
 
-<img src="https://i.imgur.com/LiGigbR.png"</img>
+<img src="https://i.imgur.com/LiGigbR.png"></img>
+
+Not bad, but also not incredibly impressive. The way template matching works is that it computes a score for every possible location of the smaller image in the larger image, so it can't actually directly tell us if the passive icon *isn't* in the picture. For that, we have to use thresholding: essentially we have to determine a value that the template match has to "pass", otherwise we consider it not found.
+
+This is where it got a little tricky. Because the resolutions of the thumbnails we scraped from Twitch were so low (440 x 248 pixels), the difference between a successful match and an unsuccessful match was not a fine line at all. We're talking 8 x 8 images for a total of 64 pixels, where 53 matching pixels could be a true positive in one image, while 56 matching pixels could be a false positive in another. I computed the bare minimum value for passing all of my sample Pyke images, and used that as a threshold to test the template matching on one of my small League thumbnail sets. The results were not so hot (all of the following are false positives):
+
+<img src="https://i.imgur.com/FhI8xuU.png"></img>
+<img src="https://i.imgur.com/lfid0Qq.png"></img>
+<img src="https://i.imgur.com/37W8lTT.png"></img>
+<img src="https://i.imgur.com/qZ49RpD.png"></img>
+<img src="https://i.imgur.com/1USWXT2.png"></img>
+
+I've only included five of these, but I ran into about 100 when I was iterating through my dataset (which was only around 150 images). So this clearly didn't work. The resolution was just too small and the noise in the downscaled pixels varied too much for us to be able to find an accurate threshold. It seemed that we would either have to find a different approach or just abandon the method altogether, because if we weren't able to detect Pyke, there was no way we were going to be able to detect anything else.
 
 ## Deus Ex Machina
