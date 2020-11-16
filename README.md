@@ -198,6 +198,12 @@ We'll start work in the lab in the next section.
 
 Alright, I don't want to get too behind in the logs, so let's get this section over with.
 
+For our preliminary test, we're going to see if we can detect a single character as either being played or not being played. I'm using my current main champion Pyke. Pyke has 4 skins, 4 abilities, and 1 passive, for a total of 9 images that can be used to recognize Pyke as the character being played in a screenshot. There are some constraints for us, though. When any champion uses an ability, it goes on *cooldown*, and the icon is hidden behind a timer until the spell is able to be used again. Additionally, when a player dies, the champion portait turns grayscale and has a similar countdown timer on it until the player respawns.
 
+Which leaves the passive icon as the only thing that can be relied on to actually be fully visible in a screenshot at any point in the game. Now, some champions have passives that trigger and have cooldowns as well, but luckily Pyke is not one of them. So we'll be using template matching on the passive icon to do our testing.
+
+I set up a simple Python script to do iterative template matching over a series of sizes for the smaller image. Basically, template matching requires you to specify the size of the image that you'll be looking for, which isn't ideal because we don't actually know how big the streamer's HUD is going to be, but we can work around that by template matching multiple times with different icon sizes. And it worked! The script was able to find the passive icon in the screenshot of Pyke (outlined in red):
+
+<img src="https://i.imgur.com/LiGigbR.png"</img>
 
 ## Deus Ex Machina
