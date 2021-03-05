@@ -39,7 +39,8 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 * [Chapter 1: League of Legends](#chapter-1-league-of-legends)
    * [The Name of the Game](#the-name-of-the-game)
    * [Pyke Detection](#pyke-detection)
-   * [Deus Ex Machina](#deus-ex-machina)<br /><br /><br /><br />
+   * [Deus Ex Machina](#deus-ex-machina)
+   * [Bounding Boxes](#bounding-boxes)<br /><br /><br /><br />
 
 # Chapter 0: Preliminary Test of Viability
 
@@ -221,3 +222,11 @@ I've only included five of these, but I ran into about 100 when I was iterating 
 Of course, we did find a solution to the problem (and it was really simple). And now that we're caught up, I can start developing again! See you in the next section.
 
 ## Deus Ex Machina
+
+I'm sitting here downloading every image passive in the game into a folder, so I might as well give an update. Working on solo projects is a little difficult, especially when you have no idea what you're doing and have to somehow motivate yourself to continue.
+
+A while back, I figured out that you could modify the URL of a Twitch thumbnail image to make it whatever resolution you wanted it to be. So I've begun downloading my samples as 1980 x 1116 pixels, which should give the template matching ample room to determine whether or not a given image actually exists in the screenshot or not. However, doing this requires a good amount of threshold testing that I have not gotten around to, simply because I haven't really found a good way to go about it. Also, I've been looking into other methods of doing this (of which there are actually a lot) and I want to see if I can solve this problem using bounding boxes, edge detection, and simple euclidean distance minimization.
+
+So, template matching is on hold for now, which means we're also moving forward from Pyke Detection to Every Champion Detection. I'll show you the workflow in the next section, and apologies for the poor organization and structure of this documentation. I am, after all, just writing this as I go.
+
+## Bounding Boxes
