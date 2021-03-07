@@ -230,3 +230,36 @@ A while back, I figured out that you could modify the URL of a Twitch thumbnail 
 So, template matching is on hold for now, which means we're also moving forward from Pyke Detection to Every Champion Detection. I'll show you the workflow in the next section, and apologies for the poor organization and structure of this documentation. I am, after all, just writing this as I go.
 
 ## Bounding Boxes
+
+We've gotten to the point where I'd rather actually work on the project than write these up, which is pretty good. It means that I actually think that I can get stuff done and advance the project further. However, developer documentation is indeed half the fun sometimes, so I cannot neglect it.
+
+I've built something that can correctly identify the champion being played in the screenshot around, let's say, 75% of the time. Maybe 70%. Here's basically how it works:
+
+We know that if the character is not dead and is not one of the 10-something champions with passive cooldowns, then the passive will for sure be visible as a box in the bottom left corner of the screen. I went into my own game and tested out the maximum and minimum HUD size in order to obtain the coordinates for a rectangle that contained all the possible locations of the passive box.
+
+I then extract this region from the image and apply a sharpen kernel on it, which accentuates the contrast between the box and the background:
+
+<img src="https://i.imgur.com/m0eQDHj.png"></img>
+
+Next, simple Canny edge detection and morphological operations. Then we simply select the shape that most resembles a box and is of appropriate size:
+
+<img src="https://i.imgur.com/XwzTL90.png"></img>
+
+We can then extract the box from the image and check the Euclidean distance against a collection of all passive images. The minimum distance should be the most similar image, and hopefully:
+
+<img src="https://i.imgur.com/rhnU6EU.png"></img>
+<img src="https://i.imgur.com/Lsm6VtZ.png"></img>
+
+the champion is then found. Rammus' passive is recognized in the above example.
+
+Of course, this isn't a perfect solution. It doesn't work if the passive is on cooldown or obscured:
+
+<img src="https://i.imgur.com/pPX0awf.png"></img>
+
+or if you are playing Aphelios, who doesn't even have any boxes:
+
+<img src="https://i.imgur.com/A5jKRZZ.png"></img>
+
+So we've still got a ways to go. I'm thinking that we can possibly use the coordinates of the passive box to obtain the coordinates of the other abilities and thus have more opportunities to check for images (an idea generously provided by my friend Kitnips). We can also go back to template matching and see if thresholding would be a more smooth solution. Anyways, this thing works for a good chunk of Twitch thumbnails, so I now have to think about how to wrap around these edge cases. Something about time and ignoring unclassifiable images and defaulting to the previously seen champion or something.
+
+See you around.
