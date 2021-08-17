@@ -41,6 +41,7 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
    * [Pyke Detection](#pyke-detection)
    * [Deus Ex Machina](#deus-ex-machina)
    * [Bounding Boxes](#bounding-boxes)<br /><br /><br /><br />
+* [Chapter 2: Getting Back Into It](#getting-back-into-it)
 
 # Chapter 0: Preliminary Test of Viability
 
