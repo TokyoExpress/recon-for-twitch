@@ -48,6 +48,8 @@ Original Research (2019-2020):
 
 ## Presenting SIVIR (Screenshot Images and Videos for Identification Research)
 
+Below this point is about half a year's worth of computer vision stuff done at the beginning of this project. It's on hold while I try to tackle other possible tasks.
+
 # Chapter 0: Preliminary Test of Viability
 
 In order for this to have any future, we just have to make sure that a neural net is actually capable of working with screenshots as data. I have confidence in machine learning, but it's always better to be safe and build one of these simple models first.
