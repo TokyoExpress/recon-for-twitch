@@ -3,7 +3,7 @@
 
 Presented by <strong>TokyoExpress</strong><br /><br />
 
-This project is on hold, see github link for its successor.
+This project is on hold, see [Caitlyn](https://github.com/TokyoExpress/caitlyn) for its successor.
 
 ***Abstract***
 
