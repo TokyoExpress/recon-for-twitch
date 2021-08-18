@@ -3,6 +3,8 @@
 
 Presented by <strong>TokyoExpress</strong><br /><br />
 
+This project is on hold, see github link for its successor.
+
 ***Abstract***
 
 Recon for Twitch is a set of experiments and potential applications revolving around computer vision of video game screenshots.<br /><br />
@@ -29,11 +31,6 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 
 ***Developer Log***
 
-Reboot (2021):
-* [Chapter 00: Getting Back Into It](#chapter-00-getting-back-into-it)
-   * [Presenting SIVIR](#presenting-sivir)
-
-Original Research (2019-2020):
 * [Chapter 0: Preliminary Test of Viability](#chapter-0-preliminary-test-of-viability)
    * [A Little Further In](#a-little-further-in)
    * [Reality Check](#reality-check)
@@ -42,13 +39,6 @@ Original Research (2019-2020):
    * [Pyke Detection](#pyke-detection)
    * [Deus Ex Machina](#deus-ex-machina)
    * [Bounding Boxes](#bounding-boxes)<br /><br /><br /><br />
-
-
-# Chapter 00: Getting Back Into It
-
-## Presenting SIVIR (Screenshot Images and Videos for Identification Research)
-
-Below this point is about half a year's worth of computer vision stuff done at the beginning of this project. It's on hold while I try to tackle other possible tasks.
 
 # Chapter 0: Preliminary Test of Viability
 
