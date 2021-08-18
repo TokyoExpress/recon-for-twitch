@@ -5,13 +5,9 @@ Presented by <strong>TokyoExpress</strong><br /><br />
 
 ***Abstract***
 
-Recon for Twitch is a Google Chrome extension that allows you to sort Twitch channels by what state of the game they are in (e.g. Champion Select or In-Game for League of Legends).<br /><br />
-
-
+Recon for Twitch is a set of experiments and potential applications revolving around computer vision of video game screenshots.<br /><br />
 
 ***Premise***
-
-Recon is a set of neural net models built around the data format of video game screenshots.
 
 The project began with a simple ambition:
 <ul>
@@ -33,6 +29,11 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 
 ***Developer Log***
 
+Reboot (2021):
+* [Chapter 00: Getting Back Into It](#chapter-00-getting-back-into-it)
+   * [Presenting SiVIR](#presenting-sivir)
+
+Original Research (2019-2020):
 * [Chapter 0: Preliminary Test of Viability](#chapter-0-preliminary-test-of-viability)
    * [A Little Further In](#a-little-further-in)
    * [Reality Check](#reality-check)
@@ -41,7 +42,11 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
    * [Pyke Detection](#pyke-detection)
    * [Deus Ex Machina](#deus-ex-machina)
    * [Bounding Boxes](#bounding-boxes)<br /><br /><br /><br />
-* [Chapter 2: Getting Back Into It](#getting-back-into-it)
+
+
+# Chapter 00: Getting Back Into It
+
+## Presenting SIVIR (Simulated Image and Video for Identification Research)
 
 # Chapter 0: Preliminary Test of Viability
 
