@@ -31,7 +31,7 @@ Libraries: **OpenCV**, **TensorFlow**, **Keras**, **SKLearn**<br /><br /><br /><
 
 Reboot (2021):
 * [Chapter 00: Getting Back Into It](#chapter-00-getting-back-into-it)
-   * [Presenting SiVIR](#presenting-sivir)
+   * [Presenting SIVIR](#presenting-sivir)
 
 Original Research (2019-2020):
 * [Chapter 0: Preliminary Test of Viability](#chapter-0-preliminary-test-of-viability)
@@ -46,7 +46,7 @@ Original Research (2019-2020):
 
 # Chapter 00: Getting Back Into It
 
-## Presenting SIVIR (Simulated Image and Video for Identification Research)
+## Presenting SIVIR (Screenshot Images and Videos for Identification Research)
 
 # Chapter 0: Preliminary Test of Viability
 
